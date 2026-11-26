@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Notas Duales</string>
+
+    <!-- Pantalla Principal -->
+    <string name="main_subtitle">Almacenamiento SQLite y JSON</string>
+    <string name="action_sync">Sincronizar</string>
+    <string name="action_new_note">Nueva nota</string>
+    <string name="cd_new_note">Crear una nueva nota</string>
+    <string name="cd_sync_notes">Sincronizar notas de SQLite a JSON</string>
+    <string name="stats_summary_format">Total: %1$d  •  SQLite: %2$d  •  JSON: %3$d</string>
+    <string name="empty_notes_title">Aún no hay notas</string>
+    <string name="empty_notes_message">Toca Nueva nota para escribir tu primera nota y elegir almacenamiento SQLite o JSON.</string>
+    <string name="updated_at_format">Actualizada %1$s</string>
+
+    <!-- Nuevas acciones y menús S04 -->
+    <string name="action_search">Buscar</string>
+    <string name="action_view_toggle">Cambiar vista</string>
+    <string name="action_sort">Ordenar notas</string>
+    <string name="action_recycle_bin">Papelera</string>
+    <string name="search_hint">Buscar notas por título o contenido…</string>
+    <string name="empty_search_title">No hay notas coincidentes</string>
+    <string name="empty_search_message">Intenta buscar con otras palabras clave.</string>
+
+    <!-- Opciones de ordenamiento -->
+    <string name="sort_recently_updated">Actualizada recientemente</string>
+    <string name="sort_oldest_updated">Actualizada más antigua</string>
+    <string name="sort_alphabetical_az">Alfabético A–Z</string>
+    <string name="sort_alphabetical_za">Alfabético Z–A</string>
+
+    <!-- Selección múltiple y acciones masivas -->
+    <string name="action_move_to_bin">Mover a la Papelera</string>
+    <string name="selected_count_format">%1$d seleccionadas</string>
+    <string name="msg_moved_to_bin">%1$d nota(s) movida(s) a la Papelera.</string>
+
+    <!-- Pantalla Papelera -->
+    <string name="recycle_bin_title">Papelera</string>
+    <string name="action_restore">Restaurar</string>
+    <string name="action_permanent_delete">Eliminar permanentemente</string>
+    <string name="action_empty_bin">Vaciar Papelera</string>
+    <string name="empty_bin_title">La Papelera está vacía</string>
+    <string name="empty_bin_message">Las notas eliminadas aparecerán aquí.</string>
+    <string name="msg_restored_notes">%1$d nota(s) restaurada(s).</string>
+    <string name="msg_permanently_deleted">%1$d nota(s) eliminada(s) permanentemente.</string>
+    <string name="msg_bin_emptied">Papelera vaciada (%1$d notas eliminadas).</string>
+
+    <!-- Diálogos -->
+    <string name="dialog_empty_bin_title">¿Vaciar Papelera?</string>
+    <string name="dialog_empty_bin_message">Todas las notas de la Papelera se eliminarán permanentemente de ambas ubicaciones.</string>
+    <string name="dialog_permanent_delete_title">¿Eliminar permanentemente?</string>
+    <string name="dialog_permanent_delete_message">Esto eliminará permanentemente las notas seleccionadas de ambas ubicaciones.</string>
+    <string name="dialog_confirm_empty">Vaciar Papelera</string>
+
+    <!-- Etiquetas e Insignias de Almacenamiento -->
+    <string name="storage_sqlite">SQLite</string>
+    <string name="storage_json">JSON</string>
+    <string name="storage_both">SQLite + JSON</string>
+    <string name="storage_selector_label">Ubicación de guardado</string>
+    <string name="storage_hint_sqlite">Base de datos principal (SQLiteOpenHelper)</string>
+    <string name="storage_hint_json">Archivo secundario (notes.json en almacenamiento interno)</string>
+
+    <!-- Pantalla de Edición -->
+    <string name="editor_title_new">Nueva nota</string>
+    <string name="editor_title_edit">Editar nota</string>
+    <string name="hint_note_title">Título</string>
+    <string name="hint_note_content">Escribe tu nota aquí…</string>
+    <string name="action_save">Guardar nota</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="cd_delete_note">Eliminar esta nota</string>
+    <string name="cd_navigate_up">Volver atrás</string>
+    <string name="note_id_format">UUID: %1$s</string>
+    <string name="note_presence_format">Guardada en: %1$s</string>
+
+    <!-- Validación y Mensajes -->
+    <string name="action_retry">Reintentar</string>
+    <string name="error_empty_title">El título no puede estar vacío.</string>
+    <string name="error_empty_content">El contenido no puede estar vacío.</string>
+    <string name="msg_note_saved">Nota guardada en %1$s.</string>
+    <string name="msg_note_updated">Nota actualizada en %1$s.</string>
+    <string name="msg_note_deleted">Nota movida a la Papelera.</string>
+    <string name="msg_sync_complete">Sincronizadas %1$d desde SQLite (%2$d agregadas, %3$d actualizadas). %4$d solo-JSON preservadas.</string>
+    <string name="msg_sync_error">Error al sincronizar. Inténtalo de nuevo.</string>
+    <string name="msg_load_error">No se pudo cargar la nota.</string>
+
+    <!-- Diálogo de Confirmación -->
+    <string name="dialog_delete_title">¿Mover a la Papelera?</string>
+    <string name="dialog_delete_message">Esto moverá \"%1$s\" a la Papelera.</string>
+    <string name="dialog_confirm_delete">Mover a Papelera</string>
+    <string name="dialog_cancel">Cancelar</string>
+</resources>

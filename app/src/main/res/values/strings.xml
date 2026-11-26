@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Dual Notes</string>
+
+    <!-- Main Screen -->
+    <string name="main_subtitle">SQLite &amp; JSON Storage</string>
+    <string name="action_sync">Sync</string>
+    <string name="action_new_note">New Note</string>
+    <string name="cd_new_note">Create a new note</string>
+    <string name="cd_sync_notes">Synchronize SQLite notes to JSON</string>
+    <string name="stats_summary_format">Total: %1$d  •  SQLite: %2$d  •  JSON: %3$d</string>
+    <string name="empty_notes_title">No notes yet</string>
+    <string name="empty_notes_message">Tap New Note to write your first note and choose SQLite or JSON storage.</string>
+    <string name="updated_at_format">Updated %1$s</string>
+
+    <!-- S04 New Menu & Actions -->
+    <string name="action_search">Search</string>
+    <string name="action_view_toggle">Toggle View</string>
+    <string name="action_sort">Sort Notes</string>
+    <string name="action_recycle_bin">Recycle Bin</string>
+    <string name="search_hint">Search notes by title or content…</string>
+    <string name="empty_search_title">No matching notes</string>
+    <string name="empty_search_message">Try searching with different keywords.</string>
+
+    <!-- Sorting Options -->
+    <string name="sort_recently_updated">Recently updated</string>
+    <string name="sort_oldest_updated">Oldest updated</string>
+    <string name="sort_alphabetical_az">Alphabetical A–Z</string>
+    <string name="sort_alphabetical_za">Alphabetical Z–A</string>
+
+    <!-- Multi-Selection & Bulk Actions -->
+    <string name="action_move_to_bin">Move to Recycle Bin</string>
+    <string name="selected_count_format">%1$d selected</string>
+    <string name="msg_moved_to_bin">Moved %1$d note(s) to Recycle Bin.</string>
+
+    <!-- Recycle Bin Screen -->
+    <string name="recycle_bin_title">Recycle Bin</string>
+    <string name="action_restore">Restore</string>
+    <string name="action_permanent_delete">Delete Permanently</string>
+    <string name="action_empty_bin">Empty Recycle Bin</string>
+    <string name="empty_bin_title">Recycle Bin is empty</string>
+    <string name="empty_bin_message">Deleted notes will appear here.</string>
+    <string name="msg_restored_notes">Restored %1$d note(s).</string>
+    <string name="msg_permanently_deleted">Permanently deleted %1$d note(s).</string>
+    <string name="msg_bin_emptied">Recycle Bin emptied (%1$d notes removed).</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_empty_bin_title">Empty Recycle Bin?</string>
+    <string name="dialog_empty_bin_message">All notes in the Recycle Bin will be permanently deleted from both storage locations.</string>
+    <string name="dialog_permanent_delete_title">Delete permanently?</string>
+    <string name="dialog_permanent_delete_message">This will permanently remove selected notes from both storage locations.</string>
+    <string name="dialog_confirm_empty">Empty Bin</string>
+
+    <!-- Storage Labels & Badges -->
+    <string name="storage_sqlite">SQLite</string>
+    <string name="storage_json">JSON</string>
+    <string name="storage_both">SQLite + JSON</string>
+    <string name="storage_selector_label">Save Location</string>
+    <string name="storage_hint_sqlite">Primary database (SQLiteOpenHelper)</string>
+    <string name="storage_hint_json">Secondary file (notes.json in internal storage)</string>
+
+    <!-- Editor Screen -->
+    <string name="editor_title_new">New Note</string>
+    <string name="editor_title_edit">Edit Note</string>
+    <string name="hint_note_title">Title</string>
+    <string name="hint_note_content">Write your note here…</string>
+    <string name="action_save">Save Note</string>
+    <string name="action_delete">Delete</string>
+    <string name="cd_delete_note">Delete this note</string>
+    <string name="cd_navigate_up">Navigate back</string>
+    <string name="note_id_format">UUID: %1$s</string>
+    <string name="note_presence_format">Stored in: %1$s</string>
+
+    <!-- Validation & Feedback -->
+    <string name="action_retry">Retry</string>
+    <string name="error_empty_title">Title cannot be empty.</string>
+    <string name="error_empty_content">Content cannot be empty.</string>
+    <string name="msg_note_saved">Note saved to %1$s.</string>
+    <string name="msg_note_updated">Note updated in %1$s.</string>
+    <string name="msg_note_deleted">Note moved to Recycle Bin.</string>
+    <string name="msg_sync_complete">Synced %1$d from SQLite (%2$d added, %3$d updated). %4$d JSON-only preserved.</string>
+    <string name="msg_sync_error">Synchronization failed. Please try again.</string>
+    <string name="msg_load_error">Could not load note.</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="dialog_delete_title">Move to Recycle Bin?</string>
+    <string name="dialog_delete_message">This will move "%1$s" to the Recycle Bin.</string>
+    <string name="dialog_confirm_delete">Move to Bin</string>
+    <string name="dialog_cancel">Cancel</string>
+</resources>

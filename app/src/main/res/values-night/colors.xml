@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Yellow & Black Inspired Palette (Dark) -->
+    <color name="paper_background">#161614</color>
+    <color name="paper_surface">#22211D</color>
+    <color name="paper_surface_variant">#2D2C27</color>
+    <color name="paper_outline">#3D3C36</color>
+
+    <color name="ink_primary">#F1C40F</color>
+    <color name="ink_on_primary">#161614</color>
+    <color name="ink_primary_container">#3D3715</color>
+    <color name="ink_on_primary_container">#F9E79F</color>
+
+    <color name="terracotta_secondary">#E67E22</color>
+    <color name="terracotta_on_secondary">#4D2600</color>
+    <color name="terracotta_container">#6E2C00</color>
+    <color name="terracotta_on_container">#FADBD8</color>
+
+    <color name="text_primary">#F4F0D8</color>
+    <color name="text_secondary">#B5B099</color>
+    <color name="text_muted">#88836F</color>
+
+    <color name="error_red">#E74C3C</color>
+    <color name="on_error">#511C18</color>
+
+    <!-- Selection & Amber highlights -->
+    <color name="selection_amber">#F1C40F</color>
+    <color name="recycle_bin_grey">#95A5A6</color>
+
+    <!-- Storage Badge Tokens (Dark) -->
+    <color name="badge_sqlite_bg">#3D3308</color>
+    <color name="badge_sqlite_fg">#F4D03F</color>
+    <color name="badge_json_bg">#4A2306</color>
+    <color name="badge_json_fg">#F39C12</color>
+    <color name="badge_both_bg">#0E3A32</color>
+    <color name="badge_both_fg">#48C9B0</color>
+</resources>

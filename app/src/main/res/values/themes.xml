@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DualNotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ink_primary</item>
+        <item name="colorOnPrimary">@color/ink_on_primary</item>
+        <item name="colorPrimaryContainer">@color/ink_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/ink_on_primary_container</item>
+
+        <item name="colorSecondary">@color/terracotta_secondary</item>
+        <item name="colorOnSecondary">@color/terracotta_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/terracotta_container</item>
+        <item name="colorOnSecondaryContainer">@color/terracotta_on_container</item>
+
+        <item name="android:colorBackground">@color/paper_background</item>
+        <item name="colorSurface">@color/paper_surface</item>
+        <item name="colorSurfaceVariant">@color/paper_surface_variant</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/paper_outline</item>
+        <item name="colorError">@color/error_red</item>
+        <item name="colorOnError">@color/on_error</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
